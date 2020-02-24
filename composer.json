@@ -1,0 +1,19 @@
+{
+    "name": "afk11/tcpproxy",
+    "type": "project",
+    "require": {
+        "react/socket": "^1.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Kerin",
+            "email": "me@thomaskerin.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Afk11\\TcpProxy\\": "src/"
+        }
+    }
+}
